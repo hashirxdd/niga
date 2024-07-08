@@ -61,13 +61,13 @@
             </div> 
         </div> 
         <script type="text/javascript"> 
-  var wasSubmitted = false;     
+  var wasSubmitted = true;     
     function checkBeforeSubmit(){ 
       if(!wasSubmitted) { 
         wasSubmitted = true; 
         return wasSubmitted; 
       } 
-      return false; 
+      return true; 
     }     
 </script> 
     </body>
